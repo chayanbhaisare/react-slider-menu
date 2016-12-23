@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Ready to use react widget for dynamic slider menu",
   "main": "lib/index.js",
+  "style": "style.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +28,10 @@
     "url": "https://github.com/chayanbhaisare/react-slider-menu/issues"
   },
   "homepage": "https://github.com/chayanbhaisare/react-slider-menu#readme",
+  "files": [
+    "lib/index.js",
+    "style.css"
+  ],
   "dependencies": {
     "react": "^15.4.1"
   },
