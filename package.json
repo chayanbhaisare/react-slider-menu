@@ -1,0 +1,44 @@
+{
+  "name": "react-slider-menu",
+  "version": "0.1.0",
+  "description": "Ready to use react widget for dynamic slider menu",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chayanbhaisare/react-slider-menu.git"
+  },
+  "keywords": [
+    "react",
+    "widget",
+    "react",
+    "slider",
+    "menu",
+    "dynamic",
+    "bootstrap",
+    "react",
+    "menu"
+  ],
+  "author": "Chayan Bhaisare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chayanbhaisare/react-slider-menu/issues"
+  },
+  "homepage": "https://github.com/chayanbhaisare/react-slider-menu#readme",
+  "dependencies": {
+    "react": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0"
+  },
+  "scripts": {
+    "build": "babel ./src --ignore=*.spec.js --out-dir ./lib --presets es2015,react,stage-2"
+  }
+}
