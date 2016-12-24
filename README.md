@@ -2,6 +2,8 @@
 
 A [React](http://facebook.github.io/react/) component for rendering a customizable sliding menu bar.
 
+![after-open](https://cloud.githubusercontent.com/assets/9765739/21464010/cfb120fa-c92f-11e6-9412-a0f20d9d581a.PNG)
+
 ## Install
 
 ### npm
