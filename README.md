@@ -27,24 +27,24 @@ import SliderMenu from 'react-slider-menu';
 
 ```javascript
 ReactDOM.render(
-  <SliderMenu  menuItems={this.menuItems}
-               menuLabelKey='name'
-               menuValueKey='id'
-               defaultSelectedMenuValue='3'
+  <SliderMenu  items={this.items}
+               labelKey='name'
+               valueKey='id'
+               defaultSelectedValue='3'
                onClick={this.handleClick}
-               menuStyle={ {width: "200px", backgroundColor: "rgb(0, 206, 209)", fontColor: "black", sliderIconColor: "black",
+               style={ {width: "200px", backgroundColor: "rgb(0, 206, 209)", fontColor: "black", sliderIconColor: "black",
                                               selectedItemBgColor: 'white'} }
-                      />
+             />
   , document.getElementById('app')
 );
 ```
 
 ## Props
 
-### `menuItems` : `array`
+### `items` : `array`
 
 List of objects representing the items in the menu bar.
-e.g. this.menuItems = [
+e.g. this.items = [
                  {
                      "name": "React JS",
                      "id": "1"
@@ -66,18 +66,18 @@ e.g. this.menuItems = [
                  }
              ];
 
-### `menuLabelKey`: `string`
-It should match with one of the keys present in the array of objects passed to menuItems.
+### `labelKey`: `string`
+It should match with one of the keys present in the array of objects passed to items.
 It is the key for the text that gets displaced in the menu bar.
 
-### `menuValueKey` : `string`
-It should match with one of the keys present in the array of objects passed to menuItems.
+### `valueKey` : `string`
+It should match with one of the keys present in the array of objects passed to items.
 It is the key for the value that will be used to highlight the default selected item.
 
-### `defaultSelectedMenuValue` : `string`
+### `defaultSelectedValue` : `string`
 The option value which needs to be selected by default.
 
-### `menuStyle` : `object`
+### `style` : `object`
 An object which holds the JSX styles that needs to be customized.
 
 ### `onClick` : `function`
