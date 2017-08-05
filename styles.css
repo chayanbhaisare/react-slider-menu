@@ -16,12 +16,13 @@
     left: 0;
     background: rgb(233, 150, 122);
     overflow-x: hidden;
-    padding-top: 60px;
 }
 
-#sideNavContainer span.open-lines {
+span.open-lines {
     font-size: 30px;
     cursor: pointer;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    transition: all .3s;
 }
 
 .sidenav span {
@@ -58,4 +59,17 @@
     .sidenav a {
         font-size: 18px;
     }
+}
+
+.nav-offcanvas {
+    background: #201F27;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    transform: translate3d(-300px, 0, 0);
+    transition: all .3s;
+    z-index: 9999;
+}
+
+.nav-offcanvas.open {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
 }

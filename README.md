@@ -32,6 +32,7 @@ ReactDOM.render(
                valueKey='id'
                defaultSelectedValue='3'
                onClick={this.handleClick}
+               autoClose={false}
                style={ {width: "200px", backgroundColor: "rgb(0, 206, 209)", fontColor: "black", sliderIconColor: "black",
                                               selectedItemBgColor: 'white'} }
              />
@@ -79,6 +80,9 @@ The option value which needs to be selected by default.
 
 ### `style` : `object`
 An object which holds the JSX styles that needs to be customized.
+
+### `autoClose` : `boolean`
+Enable auto close of the menu on click of any menu item or clicking outside
 
 ### `onClick` : `function`
 A callback function which is invoked when a item is selected from menu.
